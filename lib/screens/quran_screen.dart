@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:quran_library/quran_library.dart';
 
 class QuranScreen extends StatelessWidget {

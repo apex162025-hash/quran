@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tordoo_qr/commons/widgets/text_field/search_text_field.dart';
+import 'package:test_project/commons/widgets/text_field/search_text_field.dart';
 
 class CustomSearchField extends StatelessWidget {
   final TextEditingController controller;

@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tordoo_qr/features/home/presentation/controllers/home_controller.dart';
-import 'package:tordoo_qr/features/more/peresentation/controllers/profile_controller.dart';
-import 'package:tordoo_qr/features/more/peresentation/controllers/shared_pages_controller.dart';
-import 'package:tordoo_qr/features/orders/presentation/controllers/order_details_controller.dart';
 import '../network/dio_helper.dart';
 import 'cache_helper.dart';
 
@@ -92,10 +88,10 @@ class LanguageGetxController extends GetxController {
   /// triggering onInit() which fetches fresh data with updated headers.
   void _resetControllers() {
     debugPrint('🔄 Resetting controllers for language change...');
-    _deleteIfRegistered<HomeController>();
-    _deleteIfRegistered<ProfileController>();
-    _deleteIfRegistered<OrderDetailsController>();
-    _deleteIfRegistered<SharedPagesController>();
+    // _deleteIfRegistered<HomeController>();
+    // _deleteIfRegistered<ProfileController>();
+    // _deleteIfRegistered<OrderDetailsController>();
+    // _deleteIfRegistered<SharedPagesController>();
     debugPrint('✓ Controllers reset — will refresh on next screen access');
   }
 

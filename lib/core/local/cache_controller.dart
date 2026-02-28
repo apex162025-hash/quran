@@ -1,5 +1,4 @@
 import 'package:shared_preferences/shared_preferences.dart';
-
 import '../enums/enums.dart';
 import 'cache_helper.dart';
 

@@ -32,31 +32,6 @@ class QuranStyles {
     );
   }
 
-  // Styles commented out due to 'Undefined class' error in linter.
-  // It seems these classes are not exported by the package main file.
-  /*
-  static AyahAudioStyle ayahAudioStyle(bool isDark) {
-    return AyahAudioStyle(
-      backgroundColor: isDark ? const Color(0xFF2C2C2C) : Colors.white,
-      playIconColor: AppTheme.secondaryLight,
-      pauseIconColor: AppTheme.secondaryLight,
-      nextIconColor: isDark ? Colors.white70 : Colors.black54,
-      previousIconColor: isDark ? Colors.white70 : Colors.black54,
-      sliderActiveColor: AppTheme.secondaryLight,
-      sliderInactiveColor: isDark ? Colors.grey[700] : Colors.grey[300]!,
-      textColor: isDark ? Colors.white : Colors.black,
-    );
-  }
-
-  static SurahAudioStyle surahAudioStyle(bool isDark) {
-    return SurahAudioStyle(
-      backgroundColor: isDark ? const Color(0xFF2C2C2C) : Colors.white,
-      playIconColor: AppTheme.secondaryLight,
-      pauseIconColor: AppTheme.secondaryLight,
-      borderColor: AppTheme.secondaryLight,
-    );
-  }
-  */
 
   static QuranTopBarStyle topBarStyle(bool isDark) {
     return QuranTopBarStyle(
@@ -69,9 +44,6 @@ class QuranStyles {
   static DownloadFontsDialogStyle downloadFontsDialogStyle(bool isDark) {
     return DownloadFontsDialogStyle(
       backgroundColor: isDark ? const Color(0xFF2C2C2C) : Colors.white,
-      // textColor: isDark ? Colors.white : Colors.black, // Not defined
-      // buttonBackgroundColor: AppTheme.primaryLight, // Not defined
-      // buttonTextColor: Colors.white, // Not defined
     );
   }
 }

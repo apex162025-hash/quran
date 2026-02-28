@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:tordoo_qr/core/constance/app_colors.dart';
-import 'package:tordoo_qr/core/extensions/sized_box_extension.dart';
-import 'package:tordoo_qr/core/helpers/image_helper.dart';
+import 'package:test_project/core/extensions/sized_box_extension.dart';
+
+import '../../../core/constance/app_colors.dart';
+import '../../../core/helpers/image_helper.dart';
 
 class AppConfirmationDialog extends StatelessWidget with ImageHelper {
   final String icon;

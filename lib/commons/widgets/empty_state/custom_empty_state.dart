@@ -1,8 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:tordoo_qr/core/extensions/sized_box_extension.dart';
-
+import 'package:test_project/core/extensions/sized_box_extension.dart';
 import '../../../core/constance/app_colors.dart';
 
 class CustomEmptyState extends StatelessWidget {

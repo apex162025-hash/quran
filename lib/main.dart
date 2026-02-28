@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     final savedCountryCode = box.read('country_code') ?? 'SA';
 
     return ScreenUtilInit(
-      designSize: const Size(375, 812), // Design size based on iPhone X/11 Pro
+      designSize: const Size(375, 812),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {

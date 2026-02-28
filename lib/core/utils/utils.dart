@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:tordoo_qr/core/extensions/sized_box_extension.dart';
+import 'package:test_project/core/extensions/sized_box_extension.dart';
 import '../enums/enums.dart';
 
 class Utils {
